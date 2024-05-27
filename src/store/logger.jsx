@@ -1,3 +1,5 @@
+import reducer from "./reducer";
+
 export default function logger() {
     return (prevState, action) => {
         console.group(action.type);
